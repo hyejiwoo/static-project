@@ -4,6 +4,16 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins" , sans-serif;
+
+.footer {
+  position: relative;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* max-width: 1280px; */
+  width: 100%;
+  background: #10182F;
+  border-radius: 6px;
 }
 
 footer{
@@ -41,6 +51,7 @@ footer .content .top{
   color: #fff;
   font-size: 30px;
 }
+
 
 footer .policy_terms a:nth-child(1){
     font-weight: bold;
@@ -161,6 +172,10 @@ footer .bottom-details .bottom_text{
 }
 @media (max-width: 700px){
   footer{
+
+@media (max-width: 900px) {
+  .footer {
+
     position: relative;
   }
   .content .top .logo-details{
@@ -198,5 +213,5 @@ footer .bottom-details .bottom_text{
   }
   footer .content .link-boxes .input-box{
     width: 100%;
-  }
+}
 }
