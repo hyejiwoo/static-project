@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/login.css"/>	
+  <script src="js/login.js"></script>
+<title>로그인</title>
+</head>
+<body>
+<!--  로그인 화면 -->
+  <div class="container">
+    <a href="index.html">
+      <img src="images/logo.png" alt="고슴도치로고" class="logo">
+    </a>
+      <form action="#">
+        <div class="title">로그인</div>
+        <div class="input-box underline">
+          <input type="text" placeholder="아이디" required />
+          <div class="underline"></div>
+        </div>
+        <div class="input-box">
+          <input type="password" placeholder="비밀번호" required />
+          <div class="underline"></div>
+        </div>
+
+        <div class="login_keep_wrap">
+          <div class="keep_check">
+              <input type="checkbox" id="keep" name="nvlong" class="input_keep" value="off">
+              <label for="keep" class="keep_text">로그인 상태 유지</label>
+          </div>
+    <div class="form-link">
+        <a href="#" class="forgot-pass trigger">아이디 찾기</a>
+        <a href="#" class="forgot-pass">비밀번호 찾기</a>
+    </div>
+		</div>
+        <div class="input-box button">
+          <input type="submit" name="login" value="로그인" />
+        </div>
+      </form>
+    <div class="form-link">
+      <span>회원가입이 필요하나요? <a href="signout.html" class="link signup-link">회원가입</a></span>
+  </div>
+	<!--  소셜 미디어 로그인  -->
+      <div class="option">또는 소셜미디어 로그인</div>
+      <div class="naver">
+        <a href="#">
+          <i class="fab fa-naver"></i>
+          네이버 로그인하기
+          </a>
+      </div>
+      <div class="kakao">
+        <a href="javascript:loginWithKakao()"
+        	id="kakao-login-btn">
+        <i class="fab fa-kakao"></i>
+        카카오톡 로그인하기
+        </a>
+      </div>
+      
+  
+</body>
+</html>
