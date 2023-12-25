@@ -1,3 +1,6 @@
+/**
+ * 
+ */
 const header = document.querySelector("header");
 const hamburgerBtn = document.querySelector("#hamburger-btn");
 const closeMenuBtn = document.querySelector("#close-menu-btn");
