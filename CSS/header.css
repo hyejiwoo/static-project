@@ -52,7 +52,6 @@ header {
     display: block;
     width: 300px;
     height: auto;
-    margin-left: -50%;
   }
   
   .navbar .menu-links li a:hover {
