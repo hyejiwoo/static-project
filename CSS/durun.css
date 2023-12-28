@@ -104,7 +104,6 @@ tr:last-child td:last-child {
     justify-content: flex-start;
     align-items: flex-start;
     margin: 30px 10px;
-
 }
 
 label{
@@ -139,6 +138,19 @@ textarea{
     justify-content: flex-end;
     align-items: flex-end;
     
+}
+
+.writeB{
+  border-radius: 5px;
+  background-color: #0066ff;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+  padding: 10px 20px;
+  border: none;
+  margin: 50px 590px;
+
 }
 
 .write-button{
